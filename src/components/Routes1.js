@@ -11,9 +11,9 @@ const Routes1 = () => {
     <main>
         <Burgermenu></Burgermenu>
         <Routes>
-        <Route path="/" element={<Index />} />
-        <Route path="/album" element={<Album />} />
-        <Route path="/collections" element={<Collections />} />
+        <Route path="/MusicApp-selsa" element={<Index />} />
+        <Route path="/MusicApp-selsa/album" element={<Album />} />
+        <Route path="/MusicApp-selsa/collections" element={<Collections />} />
         </Routes>
     </main>
     </BrowserRouter>

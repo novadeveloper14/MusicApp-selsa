@@ -52,7 +52,7 @@ const index = () => {
                         </div>
                     </a>
                     <a href="#">
-                        <Link to="/album">
+                        <Link to="/MusicApp-selsa/album">
                         <div class="top-chart">
                         <img src={imagen} alt="Tomorrow's tunes"/>
                         <div class="chart-text">

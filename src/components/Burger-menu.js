@@ -16,17 +16,17 @@ const Burgermenu = () => {
             <label for="btn-menu"><img src={imagen} alt="menu png, icono png, responsive png" /></label>
             <nav class="menu">
                 <div class="nav" >
-                    <Link to="/" onClick={() => handleClick('home')}>
+                    <Link to="/MusicApp-selsa" onClick={() => handleClick('home')}>
                       <a href="#" className={currentPage === 'home' ? 'active' : ''}>
                         <i class="fas fa-home"></i> <b>Home</b>
                       </a>
                     </Link>
-                    <Link to="/collections" onClick={() => handleClick('collections')}>
+                    <Link to="/MusicApp-selsa/collections" onClick={() => handleClick('collections')}>
                       <a href="#" className={currentPage === 'collections' ? 'active' : ''}>
                         <i class="material-symbols-outlined">library_music</i> <b>My Collections</b>
                       </a>
                     </Link>
-                    <Link to="/radio" onClick={() => handleClick('radio')}>
+                    <Link to="/MusicApp-selsa/radio" onClick={() => handleClick('radio')}>
                       <a href="#" className={currentPage === 'radio' ? 'active' : ''}>
                         <i class="material-symbols-outlined">radio</i> <b>Radio</b>
                       </a>
