@@ -31,19 +31,19 @@ const Burgermenu = () => {
                         <i class="material-symbols-outlined">radio</i> <b>Radio</b>
                       </a>
                     </Link>
-                    <Link to="/videos" onClick={() => handleClick('videos')}>
+                    <Link to="/MusicApp-selsa/videos" onClick={() => handleClick('videos')}>
                       <a href="#" className={currentPage === 'videos' ? 'active' : ''}>
                         <i class="fas fa-film"></i> <b>Music videos</b>
                       </a>
                     </Link>
                 </div>
                 <div class="nav">
-                    <Link to="/profile" onClick={() => handleClick('profile')}>
+                    <Link to="/MusicApp-selsa/profile" onClick={() => handleClick('profile')}>
                       <a href="#" className={currentPage === 'profile' ? 'active' : ''}>
                         <i class="fas fa-user"></i> <b>Profile</b>
                       </a>
                     </Link>
-                    <Link to="/logout" onClick={() => handleClick('logout')}>
+                    <Link to="/MusicApp-selsa/logout" onClick={() => handleClick('logout')}>
                       <a href="#" className={currentPage === 'logout' ? 'active' : ''}>
                         <i class="fas fa-sign-out-alt"></i> <b>Log out</b>
                     </a>
