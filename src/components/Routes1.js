@@ -6,18 +6,18 @@ import Collections from './Collections';
 import Burgermenu from './Burger-menu';
 
 const Routes1 = () => {
-  return (
-    <BrowserRouter>
-    <main>
-        <Burgermenu></Burgermenu>
-        <Routes>
-        <Route path="/MusicApp-selsa" element={<Index />} />
-        <Route path="/MusicApp-selsa/album" element={<Album />} />
-        <Route path="/MusicApp-selsa/collections" element={<Collections />} />
-        </Routes>
-    </main>
-    </BrowserRouter>
-  );
+        return (
+                <BrowserRouter>
+                        <main>
+                                <Burgermenu></Burgermenu>
+                                <Routes>
+                                        <Route path="/MusicApp-selsa" element={<Index />} />
+                                        <Route path="/MusicApp-selsa/album" element={<Album />} />
+                                        <Route path="/MusicApp-selsa/collections" element={<Collections />} />
+                                </Routes>
+                        </main>
+                </BrowserRouter>
+        );
 }
 
 export default Routes1;
